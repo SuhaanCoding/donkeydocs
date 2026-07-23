@@ -49,6 +49,13 @@ Space tags so 1–3 are visible from every point of the course — roughly one
 tag per 1–1.5 m of track. If zero tags are visible the filter coasts blind on
 its motion model.
 
+**Aim each tag at a point on the track a couple of metres *before* it along
+the driving direction, not perpendicular at the track.** A tag mounted
+square-on to the track edge is seen at roughly 70° skew by an approaching
+car and will not detect; angling it toward oncoming traffic keeps the
+approach skew inside the detector's working range. Record whatever yaw you
+actually mounted in the map.
+
 ## How to use
 
 Put the following in `myconfig.py` and wire the parts into your vehicle:
