@@ -44,6 +44,7 @@ nav:
     - Pins: parts/pins.md
     - Voice Control: parts/voice_control.md
     - Stop Sign Detection: parts/stop_sign_detection.md
+    - AprilTag Localization: parts/apriltag_localization.md
   - Utilities:
     - donkey: utility/donkey.md
     - UI: utility/ui.md
